@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+}
+
+#nav {
+  padding-top: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 25px;
+  position: fixed;
+
+}
+
+ul li {
+  display: inline-block;
+}
+
+li a {
+  color: #ed198e;
+}
+
+li a:hover {
+  color: white;
+}
+.navbar-nav > li{
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+a:hover {
+   text-decoration:none;
+}
