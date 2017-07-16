@@ -1,0 +1,8 @@
+#bg{
+  background: #000 url(../images/background-stage.jpg) no-repeat top center;
+  height: 768px;
+}
+
+li{
+  display: inline;
+}
