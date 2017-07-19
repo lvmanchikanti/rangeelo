@@ -7,7 +7,7 @@
       <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"> -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
-      
+
     </head>
 
     <body>
@@ -16,10 +16,12 @@
         <!-- just use bootstrap for this -->
         <!-- <div class="container12"> -->
           <ul id ="scene">
-            <li id = "back" class="layer" data-depth"0.60"><img src="images/back-dancers.png" alt=""></li>
-            <li id="front" class="layer" data-depth"0.40"><img src="images/mid-front-dancers.png" alt=""></li>
-            <!-- <li class="layer" data-depth"0.80"><img src= "images/crowd-back.png" alt=""></li>
-            <li class="layer" data-depth"1.00"><img src="images/crowd-front.png" alt=""></li>-->
+            <li id = "back" class="layer" data-depth = "0.60"><img src="images/back-dancers.png" alt=""></li>
+            <li id = "front" class="layer" data-depth = "0.40"><img src="images/mid-front-dancers.png" alt=""></li>
+            <!-- fix the crowd, make the colors orange, bright blue, or magenta and fix the weird line shit on the side-->
+            <!-- also make sure i use the crowdback as the crowdfront as well and flip it -->
+            <li id = "crowdback" class="layer" data-depth = "0.80"><img src= "images/crowd-back.png" alt=""></li>
+            <li id = "crowdfront" class="layer" data-depth = "1.00"><img src="images/crowd-front.png" alt=""></li>
           </ul>
         <!-- </div> -->
       </div>
@@ -30,28 +32,6 @@
         var parallax = new Parallax(scene);
       </script>
 
-
-      <!-- <nav class="navbar navbar-inverse">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="#"><img src="images/logo.png" width="30px" height="30px"/></a>
-        </div>
-
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Meet the Board</a></li>
-                <li><a href="#">Sponsors</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-      </nav> -->
 
 <!--    <script src="js/main.js"></script>-->
     </body>

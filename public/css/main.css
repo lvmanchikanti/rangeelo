@@ -6,3 +6,21 @@
 li{
   display: inline;
 }
+
+#back {
+  padding-top: 170px;
+  padding-left: 100px;
+}
+
+#front {
+  padding-top: 140px;
+}
+
+#crowdback {
+  padding-right: 30px;
+}
+
+#crowdfront {
+  padding-top: 580px;
+
+}
