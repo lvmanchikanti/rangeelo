@@ -18,9 +18,27 @@ li{
 
 #crowdback {
   padding-right: 30px;
+  animation: updown 500ms infinite alternate;
 }
 
 #crowdfront {
-  padding-top: 580px;
+  /*padding-top: 60px;*/
+  padding-right: 30px;
+  animation: updown 400ms infinite alternate;
+}
+h1{
+  margin: center;
 
+}
+/*.applePic{
+animation: updown 500ms infinite alternate;
+}*/
+
+@keyframes updown {
+0%{
+transform: translate(0px,10px);
+}
+100%{
+transform: translate(0px,0px);
+}
 }
