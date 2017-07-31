@@ -17,14 +17,14 @@ li{
 }
 
 #crowdback {
-  padding-right: 30px;
-  animation: updown 500ms infinite alternate;
+  padding-right: -30px;
+  animation: updown 300ms infinite alternate;
 }
 
 #crowdfront {
   /*padding-top: 60px;*/
-  padding-right: 30px;
-  animation: updown 400ms infinite alternate;
+  padding-right: -30px;
+  animation: updown 300ms infinite alternate;
 }
 h1{
   margin: center;
@@ -36,9 +36,35 @@ animation: updown 500ms infinite alternate;
 
 @keyframes updown {
 0%{
-transform: translate(0px,10px);
+transform: translate(0px,30px);
 }
 100%{
 transform: translate(0px,0px);
 }
 }
+
+.info{
+  padding-top: -500px;
+}
+#about{
+  background: #000 url(../officers/transiton3.png) others;
+  height: 400px;
+}
+.myh1{
+  font-family: 'Kreon', serif;
+  font-size: 80px;
+  color: white;
+}
+.mysub1{
+  font-family: 'Kreon', serif;
+  font-size: 25px;
+  color: black;
+}
+/*#trans1{
+  margin-right: 100px;
+}*/
+/*.container{
+  padding: 100px;
+  background: #000 url(../officers/transiton3.png) others;
+
+}*/
