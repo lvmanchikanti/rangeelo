@@ -19,10 +19,11 @@ li{
 #crowdback {
   padding-right: -30px;
   animation: updown 300ms infinite alternate;
+
 }
 
 #crowdfront {
-  /*padding-top: 60px;*/
+  padding-top: 5px;
   padding-right: -30px;
   animation: updown 300ms infinite alternate;
 }
@@ -49,6 +50,7 @@ transform: translate(0px,0px);
 #about{
   background: #000 url(../officers/transiton3.png) others;
   height: 400px;
+  /*padding: 200px;*/
 }
 .myh1{
   font-family: 'Kreon', serif;
