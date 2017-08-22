@@ -23,7 +23,7 @@ li{
 }
 
 #crowdfront {
-  padding-top: 5px;
+  padding-top: 1px;
   padding-right: -30px;
   animation: updown 300ms infinite alternate;
 }
@@ -44,14 +44,6 @@ transform: translate(0px,0px);
 }
 }
 
-.info{
-  padding-top: -500px;
-}
-#about{
-  background: #000 url(../officers/transiton3.png) others;
-  height: 400px;
-  /*padding: 200px;*/
-}
 .myh1{
   font-family: 'Kreon', serif;
   font-size: 80px;
@@ -62,11 +54,75 @@ transform: translate(0px,0px);
   font-size: 25px;
   color: black;
 }
-/*#trans1{
-  margin-right: 100px;
-}*/
-/*.container{
-  padding: 100px;
-  background: #000 url(../officers/transiton3.png) others;
 
-}*/
+/*info button */
+* {
+  box-sizing: border-box;
+}
+
+.modal-btn {
+  height: 70px;
+  width: 70px;
+  background: tomato;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  -webkit-transition: .3s;
+  transition: .3s;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.modal-btn:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  -webkit-transform: translate(-50%, -50%) scale(1.1);
+          transform: translate(-50%, -50%) scale(1.1);
+}
+
+.modal-btn.open {
+  width: 700px;
+  height: 400px;
+  border-radius: 0px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.modal-btn.open i {
+  display: none;
+}
+.modal-btn.open p {
+  color: white;
+}
+
+.modal-hidden {
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  padding: 20px;
+}
+.modal-hidden.open {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-transition-delay: .3s;
+          transition-delay: .3s;
+  visibility: visible;
+  opacity: 1;
+}
+
+i {
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+  line-height: 65px;
+  display: block;
+  text-align: center;
+  font-family: 'Kreon', serif;
+}
+
+.about {
+  color: white;
+  font-size: 50px;
+  font-family: 'Kreon', serif;
+  text-align: center;
+}
